@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="19b7505c-c460-423f-9021-4b2fce092887" name="DM0874@FNOA0189 2009-07-16 10:41:39" runUser="NATION\DM0874" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="ef539d4c-86f2-490b-b5fa-c3fafddc39bd">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\tfs\Solution Design\CaliberGenAddIn\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\tfs\Solution Design\CaliberGenAddIn\TestResults\DM0874_FNOA0189 2009-07-16 10_41_39">
+      <DeploymentItem filename="C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\WcfEAGenCaliber.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-07-16T10:41:39.3456795+10:00" queuing="2009-07-16T10:41:43.5837672+10:00" start="2009-07-16T10:41:44.0842056+10:00" finish="2009-07-16T10:41:52.6229358+10:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\tfs\solution design\calibergenaddin\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dbc15f4a-91e1-48de-8f1a-70513f2d3d8e" />
+      <TestMethod codeBase="C:\tfs\Solution Design\CaliberGenAddIn\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="dbc15f4a-91e1-48de-8f1a-70513f2d3d8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dbc15f4a-91e1-48de-8f1a-70513f2d3d8e" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="FNOA0189" duration="00:00:05.1066843" startTime="2009-07-16T10:41:44.5533666+10:00" endTime="2009-07-16T10:41:52.2788844+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.TestMethod1 threw exception:  System.InvalidOperationException: Could not find endpoint element with name 'IService1' and contract 'WcfEAGenCaliber.IService1' in the ServiceModel client configuration section. This might be because no configuration file was found for your application, or because no endpoint element matching this name could be found in the client element..</Message>
+          <StackTrace>    at System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   at System.ServiceModel.ChannelFactory.ApplyConfiguration(String configurationName)
+   at System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   at System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   at System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName)
+   at TestProject1.UnitTest1.CreateIService1() in C:\tfs\Solution Design\CaliberGenAddIn\TestProject1\UnitTest1.cs:line 89
+   at TestProject1.UnitTest1.TestMethod1() in C:\tfs\Solution Design\CaliberGenAddIn\TestProject1\UnitTest1.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

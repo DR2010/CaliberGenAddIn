@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BEBF69B-5B21-4845-B453-AAD0CD19D053}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EAAddIn</RootNamespace>
+    <AssemblyName>EAAddIn</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/EAAddIn/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\Program Files\Sparx Systems\EA\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\..\Program Files %28x86%29\Sparx Systems\EA\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CaliberRMSDK100.NET, Version=10.0.345.0, Culture=neutral, PublicKeyToken=157fc4a85357f4d1">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Borland\CaliberRM\CaliberRMSDK100.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.EA, Version=2.10.238.1, Culture=neutral, PublicKeyToken=d28e1c76302f6a17, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Sparx Systems\EA\Interop.EA.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applications\AuditConverter\AuditConverter.cs" />
+    <Compile Include="Applications\AuditConverter\AuditDetail.cs" />
+    <Compile Include="Applications\AuditConverter\AuditUpdate\AuditLINQ.cs" />
+    <Compile Include="Applications\AuditConverter\AuditUpdate\AuditUpdate.cs" />
+    <Compile Include="Applications\AuditConverter\BinContent1.cs" />
+    <Compile Include="Applications\AuditConverter\BinContent2.cs" />
+    <Compile Include="Applications\AuditConverter\XMLHelper.cs" />
+    <Compile Include="Applications\Caliber\View\EACaliberCoolgenDataSet.cs">
+      <DependentUpon>EACaliberCoolgenDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Applications\CSVClassImporter\Presenter\ICsvClassImporter.cs" />
+    <Compile Include="Applications\ElementLinker\ElementLinkerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Applications\ElementLinker\ElementLinkerControl.Designer.cs">
+      <DependentUpon>ElementLinkerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\Reports\DesignSignOff.cs" />
+    <Compile Include="Applications\SpecificationGenerator\SpecificationEngine.cs" />
+    <Compile Include="Menus\AddInMenu.cs" />
+    <Compile Include="AuditHeader.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuditHeader.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\ProcessDocumentationTemplate\ProcessTemplate.cs" />
+    <Compile Include="Applications\ProcessDocumentationTemplate\Template.cs" />
+    <Compile Include="Applications\SpecificationGenerator\ProcessSpecificationGenerator.cs" />
+    <Compile Include="Applications\SearchResults.cs" />
+    <Compile Include="Applications\SQLHelpers.cs" />
+    <Compile Include="Applications\StringHelpers.cs" />
+    <Compile Include="Applications\XmlHelpers.cs" />
+    <Compile Include="CustomSearches\AuditSearch.cs" />
+    <Compile Include="CustomSearches\ChangedItemsSearch.cs" />
+    <Compile Include="CustomSearches\ElementsNotUsedInDiagramsSearch.cs" />
+    <Compile Include="CustomSearches\UnlinkedElementsSearch.cs" />
+    <Compile Include="CustomSearches\XmlResultsBuilder.cs" />
+    <Compile Include="Menus\BusinessRulesRealisationMenu.cs" />
+    <Compile Include="Menus\AddInInstallerMenu.cs" />
+    <Compile Include="Menus\ElementLinkerMenu.cs" />
+    <Compile Include="Menus\DuplicatedElementsMenu.cs" />
+    <Compile Include="Menus\GENTestMenu.cs" />
+    <Compile Include="Menus\LinkedElementsToolbarMenu.cs" />
+    <Compile Include="Others\DataTableColumnNames.cs" />
+    <Compile Include="Windows\Controls\BusinessRulesRealisationUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\Controls\BusinessRulesRealisationUserControl.Designer.cs">
+      <DependentUpon>BusinessRulesRealisationUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Controls\DatabaseReleaseToolbarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\Controls\DatabaseReleaseToolbarControl.Designer.cs">
+      <DependentUpon>DatabaseReleaseToolbarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Controls\LinkedElementsToolbarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\Controls\LinkedElementsToolbarControl.Designer.cs">
+      <DependentUpon>LinkedElementsToolbarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Controls\UCDuplicatedElements.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\Controls\UCDuplicatedElements.Designer.cs">
+      <DependentUpon>UCDuplicatedElements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DatabaseReleaseManagerFormUsingControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\DatabaseReleaseManagerFormUsingControl.Designer.cs">
+      <DependentUpon>DatabaseReleaseManagerFormUsingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Others\EaObjects.cs" />
+    <Compile Include="Others\HtmlHelper.cs" />
+    <Compile Include="Menus\ProcessSpecificationGeneratorMenu.cs" />
+    <Compile Include="Windows\Controls\DatabaseReleaseManagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\Controls\DatabaseReleaseManagerControl.Designer.cs">
+      <DependentUpon>DatabaseReleaseManagerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Dialog\PleaseWaitDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Dialog\PleaseWaitDialog.Designer.cs">
+      <DependentUpon>PleaseWaitDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ExtractAndClearAuditLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ExtractAndClearAuditLogs.Designer.cs">
+      <DependentUpon>ExtractAndClearAuditLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AddInApplications.cs" />
+    <Compile Include="EnterpriseArchitectAccess\AddInRepository.cs" />
+    <Compile Include="Applications\CSVClassImporter\Model\CSVImportEngine.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\Attribute.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\Column.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\Connector.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\DatabaseReleaseManager.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\DefaultStereotypes.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\Element.cs" />
+    <Compile Include="Applications\ModelBase.cs" />
+    <Compile Include="Applications\Caliber\Model\CaliberUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterpriseArchitectAccess\DesignTrafficLight.cs" />
+    <Compile Include="EAReleaseDataSet.cs">
+      <DependentUpon>EAReleaseDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menus\CR0370Menu.cs" />
+    <Compile Include="Menus\DatabaseReleaseToolbarMenu.cs" />
+    <Compile Include="Menus\CSVClassImporterMenu.cs" />
+    <Compile Include="Others\Message.cs" />
+    <Compile Include="Others\MessageType.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\Release.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\ReleaseStream.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\Stereotype.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Model\StereotypeTypes.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\DbSchemaComparer.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\DbSchemaHelper.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\EADbColumn.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\EADbFunction.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\EADbIndex.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\EADbSchema.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\EADbStoredProcedure.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\EADbTable.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\EADbView.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLServerDbColumn.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLServerDbFunction.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLServerDbIndex.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLServerDbSchema.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLServerDbStoredProcedure.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLServerDbTable.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLServerDbView.cs" />
+    <Compile Include="Applications\SQLServerScriptGenerator\SystemTables.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SystemTables.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\StaticProfileBuilder\Model\StaticProfileBuilder.cs" />
+    <Compile Include="EnterpriseArchitectAccess\EADBUpdate.cs" />
+    <Compile Include="Menus\EAMenus.cs" />
+    <Compile Include="EnterpriseArchitectAccess\EASecurityGroups.cs" />
+    <Compile Include="EnterpriseArchitectAccess\EATools.cs" />
+    <Compile Include="Others\ExtensionMethods.cs" />
+    <Compile Include="Menus\DatabaseReleaseManagerMenu.cs" />
+    <Compile Include="MessagesDataSet.cs">
+      <DependentUpon>MessagesDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MessagesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessagesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presenters\DatabaseReleaseToolbarPresenter.cs" />
+    <Compile Include="Presenters\PreviewActiveReportPresenter.cs" />
+    <Compile Include="Applications\CSVClassImporter\Presenter\CsvClassImporterPresenter.cs" />
+    <Compile Include="Applications\DatabaseReleaseManager\Presenter\DatabaseReleaseManagerPresenter.cs" />
+    <Compile Include="Presenters\MaintainReleasesPresenter.cs" />
+    <Compile Include="Applications\StaticProfileBuilder\Presenter\StaticProfileBuilderPresenter.cs" />
+    <Compile Include="Windows\AuditHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\AuditHistory.Designer.cs">
+      <DependentUpon>AuditHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseArchitectAccess\AuditHistoryAccess.cs" />
+    <Compile Include="Windows\BPMNReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BPMNReport.Designer.cs">
+      <DependentUpon>BPMNReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BusinessRulesRealisation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\BusinessRulesRealisation.Designer.cs">
+      <DependentUpon>BusinessRulesRealisation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\COOLGen\CABStereotype.cs" />
+    <Compile Include="Applications\Caliber\View\CaliberImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\Caliber\View\CaliberImportForm.Designer.cs">
+      <DependentUpon>CaliberImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ConnectorTypesPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ConnectorTypesPicker.Designer.cs">
+      <DependentUpon>ConnectorTypesPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EAReleaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EAReleaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CreateDesignPackages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\CreateDesignPackages.Designer.cs">
+      <DependentUpon>CreateDesignPackages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CR0370AddIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\CR0370AddIn.Designer.cs">
+      <DependentUpon>CR0370AddIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DatabaseReleaseToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\DatabaseReleaseToolbar.Designer.cs">
+      <DependentUpon>DatabaseReleaseToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\CSVClassImporter\Windows\CSVImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\CSVClassImporter\Windows\CSVImportForm.designer.cs">
+      <DependentUpon>CSVImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DatabaseReleaseManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\DatabaseReleaseManagerForm.Designer.cs">
+      <DependentUpon>DatabaseReleaseManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Interfaces\IDatabaseReleaseToolbar.cs" />
+    <Compile Include="Windows\Interfaces\IPreviewActiveReport.cs" />
+    <Compile Include="Windows\Interfaces\IDatabaseReleaseManager.cs" />
+    <Compile Include="Windows\Interfaces\IMaintainReleases.cs" />
+    <Compile Include="Windows\Interfaces\IRename.cs" />
+    <Compile Include="Windows\Interfaces\MessagesEventArgs.cs" />
+    <Compile Include="Windows\ProcessDocumentation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ProcessDocumentation.Designer.cs">
+      <DependentUpon>ProcessDocumentation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\RenamedItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\RenamedItemForm.Designer.cs">
+      <DependentUpon>RenamedItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SelectStereotype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\SelectStereotype.Designer.cs">
+      <DependentUpon>SelectStereotype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UIDropImpact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UIDropImpact.Designer.cs">
+      <DependentUpon>UIDropImpact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UIGetCurrentPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UIGetCurrentPath.Designer.cs">
+      <DependentUpon>UIGetCurrentPath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Interfaces\IStaticProfileBuilder.cs" />
+    <Compile Include="Windows\MaintainReleases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\MaintainReleases.Designer.cs">
+      <DependentUpon>MaintainReleases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SQLScriptViewAttributes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\SQLScriptViewAttributes.Designer.cs">
+      <DependentUpon>SQLScriptViewAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SQLScriptStoredProcedureAttributes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\SQLScriptStoredProcedureAttributes.Designer.cs">
+      <DependentUpon>SQLScriptStoredProcedureAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SQLScriptFunctionAttributes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\SQLScriptFunctionAttributes.Designer.cs">
+      <DependentUpon>SQLScriptFunctionAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ESGAddinAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ESGAddinAboutBox.Designer.cs">
+      <DependentUpon>ESGAddinAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\DbSchema\IDbColumn.cs" />
+    <Compile Include="Interfaces\DbSchema\IDbFunction.cs" />
+    <Compile Include="Interfaces\DbSchema\IDbIndex.cs" />
+    <Compile Include="Interfaces\DbSchema\IDbSchema.cs" />
+    <Compile Include="Interfaces\DbSchema\IDbStoredProcedure.cs" />
+    <Compile Include="Interfaces\DbSchema\IDbTable.cs" />
+    <Compile Include="Interfaces\DbSchema\IDbView.cs" />
+    <Compile Include="Windows\SQLSchemaDifferencesViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\SQLSchemaDifferencesViewer.Designer.cs">
+      <DependentUpon>SQLSchemaDifferencesViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SQLScriptCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\SQLScriptCreator.Designer.cs">
+      <DependentUpon>SQLScriptCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SQLScriptIndexAttributes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\SQLScriptIndexAttributes.Designer.cs">
+      <DependentUpon>SQLScriptIndexAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseArchitectAccess\dbConnections.cs" />
+    <Compile Include="Windows\EAExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\EAExplorer.Designer.cs">
+      <DependentUpon>EAExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseArchitectAccess\DeleteElementRules.cs" />
+    <Compile Include="Applications\Caliber\View\EACaliberCoolgenDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACaliberCoolgenDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\EA_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\EA_Reports.Designer.cs">
+      <DependentUpon>EA_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseArchitectAccess\EAAccess.cs" />
+    <Compile Include="EAAddIn.cs" />
+    <Compile Include="Others\EABPMN.cs" />
+    <Compile Include="Applications\Caliber\Model\EACaliberGenEngine.cs" />
+    <Compile Include="EnterpriseArchitectAccess\EAStructures.cs" />
+    <Compile Include="Windows\DataSourceViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\DataSourceViewer.Designer.cs">
+      <DependentUpon>DataSourceViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\Caliber\Model\ExtendedRequirement.cs" />
+    <Compile Include="Windows\GetNewGenServiceNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\GetNewGenServiceNumber.Designer.cs">
+      <DependentUpon>GetNewGenServiceNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ImportRules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ImportRules.designer.cs">
+      <DependentUpon>ImportRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IRequirementSelector.cs" />
+    <Compile Include="Windows\LinkedElements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\LinkedElements.Designer.cs">
+      <DependentUpon>LinkedElements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\Caliber\View\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\Caliber\View\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MappingTableMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\MappingTableMaintenance.Designer.cs">
+      <DependentUpon>MappingTableMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\COOLGen\mtCABMapping.cs" />
+    <Compile Include="Applications\COOLGen\mtCABMappingList.cs" />
+    <Compile Include="Applications\COOLGen\mtCABNumber.cs" />
+    <Compile Include="Applications\COOLGen\mtCABType.cs" />
+    <Compile Include="Applications\Caliber\Model\mtCaliberMapping.cs" />
+    <Compile Include="Applications\COOLGen\mtTableMapping.cs" />
+    <Compile Include="Applications\COOLGen\mtTableMappingList.cs" />
+    <Compile Include="Windows\PromoteElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\PromoteElement.Designer.cs">
+      <DependentUpon>PromoteElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseArchitectAccess\DEEWREAReports.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ReleaseMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ReleaseMaintenance.Designer.cs">
+      <DependentUpon>ReleaseMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Others\SelectorSerialTag.cs" />
+    <Compile Include="Applications\Caliber\Model\SelectRequirement.cs" />
+    <Compile Include="Others\SessionManager.cs" />
+    <Compile Include="Windows\SQLScriptColumnAttributes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\SQLScriptColumnAttributes.Designer.cs">
+      <DependentUpon>SQLScriptColumnAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\SQLServerScriptGenerator\SQLScriptEngine.cs" />
+    <Compile Include="Windows\StaticProfileBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\StaticProfileBuilderForm.Designer.cs">
+      <DependentUpon>StaticProfileBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\StereotypeReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\StereotypeReplace.Designer.cs">
+      <DependentUpon>StereotypeReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\TextViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\TextViewer.Designer.cs">
+      <DependentUpon>TextViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UIDateRangePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\UIDateRangePicker.Designer.cs">
+      <DependentUpon>UIDateRangePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Word\WordReport.cs" />
+    <Compile Include="Windows\WrapperFileSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\WrapperFileSelection.Designer.cs">
+      <DependentUpon>WrapperFileSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Word\WordReportEngine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AuditHeader.xsc">
+      <DependentUpon>AuditHeader.xsd</DependentUpon>
+    </None>
+    <None Include="AuditHeader.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AuditHeader.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AuditHeader.xss">
+      <DependentUpon>AuditHeader.xsd</DependentUpon>
+    </None>
+    <None Include="Applications\SQLServerScriptGenerator\SystemTables.dbml.layout">
+      <DependentUpon>SystemTables.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Applications\ElementLinker\ElementLinkerControl.resx">
+      <DependentUpon>ElementLinkerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Controls\BusinessRulesRealisationUserControl.resx">
+      <DependentUpon>BusinessRulesRealisationUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Controls\DatabaseReleaseToolbarControl.resx">
+      <DependentUpon>DatabaseReleaseToolbarControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Controls\LinkedElementsToolbarControl.resx">
+      <DependentUpon>LinkedElementsToolbarControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Controls\UCDuplicatedElements.resx">
+      <DependentUpon>UCDuplicatedElements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DatabaseReleaseManagerFormUsingControl.resx">
+      <DependentUpon>DatabaseReleaseManagerFormUsingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\AuditHistory.resx">
+      <DependentUpon>AuditHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BPMNReport.resx">
+      <DependentUpon>BPMNReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\BusinessRulesRealisation.resx">
+      <DependentUpon>BusinessRulesRealisation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\Caliber\View\CaliberImportForm.resx">
+      <DependentUpon>CaliberImportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ConnectorTypesPicker.resx">
+      <DependentUpon>ConnectorTypesPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Controls\DatabaseReleaseManagerControl.resx">
+      <DependentUpon>DatabaseReleaseManagerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CreateDesignPackages.resx">
+      <DependentUpon>CreateDesignPackages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CR0370AddIn.resx">
+      <DependentUpon>CR0370AddIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DatabaseReleaseToolbar.resx">
+      <DependentUpon>DatabaseReleaseToolbar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\CSVClassImporter\Windows\CSVImportForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CSVImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DatabaseReleaseManagerForm.resx">
+      <DependentUpon>DatabaseReleaseManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Dialog\PleaseWaitDialog.resx">
+      <DependentUpon>PleaseWaitDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ExtractAndClearAuditLogs.resx">
+      <DependentUpon>ExtractAndClearAuditLogs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\MaintainReleases.resx">
+      <DependentUpon>MaintainReleases.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ProcessDocumentation.resx">
+      <DependentUpon>ProcessDocumentation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\RenamedItemForm.resx">
+      <DependentUpon>RenamedItemForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SelectStereotype.resx">
+      <DependentUpon>SelectStereotype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UIDropImpact.resx">
+      <DependentUpon>UIDropImpact.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UIGetCurrentPath.resx">
+      <DependentUpon>UIGetCurrentPath.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SQLScriptViewAttributes.resx">
+      <DependentUpon>SQLScriptViewAttributes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SQLScriptStoredProcedureAttributes.resx">
+      <DependentUpon>SQLScriptStoredProcedureAttributes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SQLScriptFunctionAttributes.resx">
+      <DependentUpon>SQLScriptFunctionAttributes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ESGAddinAboutBox.resx">
+      <DependentUpon>ESGAddinAboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SQLSchemaDifferencesViewer.resx">
+      <DependentUpon>SQLSchemaDifferencesViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SQLScriptCreator.resx">
+      <DependentUpon>SQLScriptCreator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SQLScriptIndexAttributes.resx">
+      <DependentUpon>SQLScriptIndexAttributes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\EAExplorer.resx">
+      <DependentUpon>EAExplorer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\EA_Reports.resx">
+      <DependentUpon>EA_Reports.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\DataSourceViewer.resx">
+      <DependentUpon>DataSourceViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\GetNewGenServiceNumber.resx">
+      <DependentUpon>GetNewGenServiceNumber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ImportRules.resx">
+      <DependentUpon>ImportRules.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\LinkedElements.resx">
+      <DependentUpon>LinkedElements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\Caliber\View\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\MappingTableMaintenance.resx">
+      <DependentUpon>MappingTableMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\PromoteElement.resx">
+      <DependentUpon>PromoteElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ReleaseMaintenance.resx">
+      <DependentUpon>ReleaseMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SQLScriptColumnAttributes.resx">
+      <DependentUpon>SQLScriptColumnAttributes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\StaticProfileBuilderForm.resx">
+      <DependentUpon>StaticProfileBuilderForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\StereotypeReplace.resx">
+      <DependentUpon>StereotypeReplace.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\TextViewer.resx">
+      <DependentUpon>TextViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\UIDateRangePicker.resx">
+      <DependentUpon>UIDateRangePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\WrapperFileSelection.resx">
+      <DependentUpon>WrapperFileSelection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Applications\AuditConverter\AuditUpdate\HowToGenerateAuidtLinq.txt" />
+    <Content Include="Images\Collaboration.jpg" />
+    <None Include="Images\about.jpg" />
+    <Content Include="Installation\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Images\DEEWR Splash.jpg" />
+    <Content Include="Images\Green.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Orange.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Red.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ImageAbout.bmp" />
+    <Content Include="Resources\ImageActivity.jpg" />
+    <None Include="Resources\ImageObject.jpg" />
+    <Content Include="Resources\ImageActivityDiagram.jpg" />
+    <None Include="Resources\ImageActivityPartition.bmp" />
+    <Content Include="Resources\ImageActor.jpg" />
+    <Content Include="Resources\ImageActorNotFound.jpg" />
+    <None Include="Resources\ImageASPpage.jpg" />
+    <Content Include="Resources\ImageAttribute.jpg" />
+    <Content Include="Resources\ImageAttributeNotFound.jpg" />
+    <None Include="Resources\ImageBoundary.jpg" />
+    <Content Include="Resources\ImageCABApproved.JPG" />
+    <Content Include="Resources\ImageCABChangesRequired.JPG" />
+    <Content Include="Resources\ImageCABImplemented.JPG" />
+    <Content Include="Resources\ImageCABNotFound.JPG" />
+    <Content Include="Resources\ImageCABProposed.JPG" />
+    <Content Include="Resources\ImageCABToBeReviewed.JPG" />
+    <Content Include="Resources\ImageCABUnderDevelopment.jpg" />
+    <Content Include="Resources\ImageCategory.jpg" />
+    <Content Include="Resources\ImageClass.jpg" />
+    <Content Include="Resources\ImageClassDiagram.jpg" />
+    <Content Include="Resources\ImageClassNotFound.jpg" />
+    <Content Include="Resources\ImageCollaboration.jpg" />
+    <Content Include="Resources\ImageComponent.jpg" />
+    <Content Include="Resources\ImageDecision.JPG" />
+    <Content Include="Resources\ImageElement.jpg" />
+    <Content Include="Resources\ImageElementNotFound.jpg" />
+    <None Include="Resources\ImageFunction.jpg" />
+    <None Include="Resources\ImageEvent.bmp" />
+    <None Include="Resources\ImageFragment.jpg" />
+    <None Include="Resources\ImageGreen.bmp" />
+    <None Include="Resources\ImageGreen.jpg" />
+    <Content Include="Resources\ImageInteractionOccurrence.JPG" />
+    <None Include="Resources\ImageInterface.jpg" />
+    <Content Include="Resources\ImageNote.jpg" />
+    <Content Include="Resources\ImageOperation.JPG" />
+    <None Include="Resources\ImageOrange.JPG" />
+    <Content Include="Resources\ImagePackage.jpg" />
+    <Content Include="Resources\ImagePackageNotFound.jpg" />
+    <Content Include="Resources\ImageQuestionMark.jpg" />
+    <None Include="Resources\ImageRed.jpg" />
+    <Content Include="Resources\ImageRootModel.jpg" />
+    <Content Include="Resources\ImageScreen.jpg" />
+    <Content Include="Resources\ImageScreenNotFound.jpg" />
+    <Content Include="Resources\ImageSequenceDiagram.jpg" />
+    <None Include="Resources\ImageStoredProcedure.jpg" />
+    <Content Include="Resources\ImageTable.JPG" />
+    <Content Include="Resources\ImageTableNotFound.JPG" />
+    <None Include="Resources\ImageText.jpg" />
+    <Content Include="Resources\ImageUIDiagram.jpg" />
+    <Content Include="Resources\ImageUseCase.jpg" />
+    <None Include="Resources\ImageUseCase1.jpg" />
+    <Content Include="Resources\ImageUseCaseDiagram.jpg" />
+    <Content Include="Resources\ImageUseCaseNotFound.jpg" />
+    <Content Include="Resources\ImageView.jpg" />
+    <None Include="Resources\ImageViewSQL.jpg" />
+    <Content Include="Resources\ImageWhite.JPG" />
+    <None Include="Installation\install.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Applications\SQLServerScriptGenerator\SystemTables.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SystemTables.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Applications\Caliber\View\EACaliberCoolgenDataSet.xsc">
+      <DependentUpon>EACaliberCoolgenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Applications\Caliber\View\EACaliberCoolgenDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACaliberCoolgenDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Applications\Caliber\View\EACaliberCoolgenDataSet.xss">
+      <DependentUpon>EACaliberCoolgenDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EAReleaseDataSet.xsc">
+      <DependentUpon>EAReleaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EAReleaseDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EAReleaseDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="EAReleaseDataSet.xss">
+      <DependentUpon>EAReleaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MessagesDataSet.xsc">
+      <DependentUpon>MessagesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MessagesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MessagesDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MessagesDataSet.xss">
+      <DependentUpon>MessagesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Installation\msbuilder.cmd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Installation\RegAddIn.reg" />
+    <None Include="Resources\ImageRequirement.JPG" />
+    <None Include="Resources\ImageRequirementNotFound.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Applications\Caliber\Presenter\" />
+    <Folder Include="Applications\DatabaseReleaseManager\View\" />
+    <Folder Include="Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

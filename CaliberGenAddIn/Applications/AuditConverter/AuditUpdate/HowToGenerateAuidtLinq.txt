@@ -1,0 +1,5 @@
+﻿To Generate AuditLINQ.cs run:
+
+sqlmetal /server:.\sqlexpress /database:EA_CalibreCoolgen /code:AuditLINQ.cs
+
+From Microsoft Visual Studio 2010 -> Visual Studio Tools -> Visual Studio Command Prompt (2010)

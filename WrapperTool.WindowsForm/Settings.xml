@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WrapperToolSettings>
+  <Environment Value="TA">
+    <TargetHostUrl Value="http://fbrukdev.network:4101">      
+    </TargetHostUrl>
+    <SourceCVSTemplatePath Value="\\idcom051s1\esg_web_content\ftp\FtpData\CVSFiles\TA">
+    </SourceCVSTemplatePath>
+    <SourceXMLTemplatePath Value="\\idcom051s1\esg_web_content\ftp\FtpData\MFXSL\TA\XML">
+    </SourceXMLTemplatePath>
+  </Environment>
+  <Environment Value="DA">
+    <TargetHostUrl Value="http://fbrukdev.network:4152">
+    </TargetHostUrl>
+    <SourceCVSTemplatePath Value="\\idcom050s1\esg_web_content\ftp\FtpData\CVSFiles\DA">
+    </SourceCVSTemplatePath>
+    <SourceXMLTemplatePath Value="\\idcom050s1\esg_web_content\ftp\FtpData\MFXSL\DA\XML">
+    </SourceXMLTemplatePath>
+  </Environment>
+  <Environment Value="DE">
+    <TargetHostUrl Value="http://fbrukdev.network:4013">
+    </TargetHostUrl>
+    <SourceCVSTemplatePath Value="\\idcom050s1\esg_web_content\ftp\FtpData\CVSFiles\DE">
+    </SourceCVSTemplatePath>
+    <SourceXMLTemplatePath Value="\\idcom050s1\esg_web_content\ftp\FtpData\MFXSL\DE\XML">
+    </SourceXMLTemplatePath>
+  </Environment>
+  <Environment Value="TB">
+    <TargetHostUrl Value="http://fbrukdev.network:4201">
+    </TargetHostUrl>
+    <SourceCVSTemplatePath Value="\\idcom051s1\esg_web_content\ftp\FtpData\CVSFiles\TB">
+    </SourceCVSTemplatePath>
+    <SourceXMLTemplatePath Value="\\idcom051s1\esg_web_content\ftp\FtpData\MFXSL\TB\XML">
+    </SourceXMLTemplatePath>
+  </Environment>
+</WrapperToolSettings>

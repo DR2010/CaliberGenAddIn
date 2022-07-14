@@ -1,0 +1,7 @@
+c:\tfs\Solution Design\CaliberGenAddIn\EaAuditConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\tfs\Solution Design\CaliberGenAddIn\EaAuditConverter\bin\Debug\EaAuditConverter.exe.config
+c:\tfs\Solution Design\CaliberGenAddIn\EaAuditConverter\bin\Debug\EaAuditConverter.exe
+c:\tfs\Solution Design\CaliberGenAddIn\EaAuditConverter\bin\Debug\EaAuditConverter.pdb
+c:\tfs\Solution Design\CaliberGenAddIn\EaAuditConverter\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\tfs\Solution Design\CaliberGenAddIn\EaAuditConverter\obj\x86\Debug\EaAuditConverter.exe
+c:\tfs\Solution Design\CaliberGenAddIn\EaAuditConverter\obj\x86\Debug\EaAuditConverter.pdb

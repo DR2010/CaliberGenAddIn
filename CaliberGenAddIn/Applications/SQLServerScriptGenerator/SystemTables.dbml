@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="EA_Release1" Class="SystemTablesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DRDSQL003\SQL01;Initial Catalog=EA_Release1;Integrated Security=True" SettingsObjectName="EAAddIn.Properties.Settings" SettingsPropertyName="EA_Release1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="sys.columns" Member="columns">
+    <Type Name="column">
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="system_type_id" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="user_type_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="max_length" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="precision" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="scale" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="collation_name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="is_nullable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_ansi_padded" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_rowguidcol" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_identity" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_computed" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_filestream" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_replicated" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_non_sql_subscribed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_merge_published" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_dts_replicated" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_xml_document" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="xml_collection_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="default_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rule_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="column_type" Member="types" ThisKey="system_type_id,user_type_id" OtherKey="system_type_id,user_type_id" Type="type" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="sys.tables" Member="tables">
+    <Type Name="table">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="lob_data_space_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="filestream_data_space_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="max_column_id_used" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="lock_on_bulk_load" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="uses_ansi_nulls" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_replicated" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="has_replication_filter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_merge_published" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_sync_tran_subscribed" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="has_unchecked_assembly_data" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="text_in_row_limit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="large_value_types_out_of_row" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="sys.types" Member="types">
+    <Type Name="type">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="system_type_id" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="user_type_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="max_length" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="precision" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="scale" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="collation_name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="is_nullable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_user_defined" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_assembly_type" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="default_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rule_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="column_type" Member="column" ThisKey="system_type_id,user_type_id" OtherKey="system_type_id,user_type_id" Type="column" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="sys.objects" Member="objects">
+    <Type Name="object">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="sys.procedures" Member="procedures">
+    <Type Name="procedure">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_auto_executed" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_execution_replicated" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_repl_serializable_only" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="skips_repl_constraints" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="sys.indexes" Member="indexes">
+    <Type Name="index">
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="index_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="is_unique" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="data_space_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ignore_dup_key" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_primary_key" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_unique_constraint" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="fill_factor" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="is_padded" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_disabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_hypothetical" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="allow_row_locks" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="allow_page_locks" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="sys.index_columns" Member="index_columns">
+    <Type Name="index_column">
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="index_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="index_column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="key_ordinal" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="partition_ordinal" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="is_descending_key" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_included_column" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="sys.foreign_keys" Member="foreign_keys">
+    <Type Name="foreign_key">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="referenced_object_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="key_index_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="is_disabled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_not_for_replication" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_not_trusted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="delete_referential_action" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="delete_referential_action_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="update_referential_action" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="update_referential_action_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="is_system_named" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="sys.foreign_key_columns" Member="foreign_key_columns">
+    <Type Name="foreign_key_column">
+      <Column Name="constraint_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="constraint_column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="referenced_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="referenced_column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="sys.key_constraints" Member="key_constraints">
+    <Type Name="key_constraint">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="unique_index_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="is_system_named" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="sys.check_constraints" Member="check_constraints">
+    <Type Name="check_constraint">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_disabled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_not_for_replication" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_not_trusted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="parent_column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="definition" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="uses_database_collation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_system_named" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="sys.default_constraints" Member="default_constraints">
+    <Type Name="default_constraint">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="parent_column_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="definition" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="is_system_named" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="sys.triggers" Member="triggers">
+    <Type Name="trigger">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_class" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="parent_class_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="parent_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_disabled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_not_for_replication" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_instead_of_trigger" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="sys.sql_modules" Member="sql_modules">
+    <Type Name="sql_module">
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="definition" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="uses_ansi_nulls" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="uses_quoted_identifier" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_schema_bound" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="uses_database_collation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="is_recompiled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="null_on_null_input" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="execute_as_principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="sys.views" Member="views">
+    <Type Name="view">
+      <Column Name="name" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="principal_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="schema_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="parent_object_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="type_desc" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="create_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="modify_date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="is_ms_shipped" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_schema_published" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_replicated" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="has_replication_filter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="has_opaque_metadata" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="has_unchecked_assembly_data" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="with_check_option" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="is_date_correlation_view" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

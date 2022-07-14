@@ -1,0 +1,8 @@
+c:\projects\EAAddIn\EAAddIn\bin\Release\EAAddIn.dll
+c:\projects\EAAddIn\EAAddIn\bin\Release\EAAddIn.pdb
+c:\projects\EAAddIn\EAAddIn\obj\Release\ResolveAssemblyReference.cache
+c:\projects\EAAddIn\EAAddIn\obj\Release\EAAddIn.dll
+c:\projects\EAAddIn\EAAddIn\obj\Release\EAAddIn.pdb
+c:\projects\EAAddIn\EAAddIn\bin\Release\EAAddIn.tlb
+c:\projects\EAAddIn\EAAddIn\obj\Release\EAAddIn.AboutCEG.resources
+c:\projects\EAAddIn\EAAddIn\obj\Release\EAAddIn.csproj.GenerateResource.Cache

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cc787ddf-6637-4296-ab4f-f13677b39b0b" name="DM0874@FNOA0189 2009-07-16 11:26:48" runUser="NATION\DM0874" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="ef539d4c-86f2-490b-b5fa-c3fafddc39bd">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\tfs\Solution Design\CaliberGenAddIn\TestResults\DM0874_FNOA0189 2009-07-16 11_26_48">
+      <DeploymentItem filename="C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\WcfEAGenCaliber.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="2" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="FNOA0189" outcome="Error" timestamp="2009-07-16T11:27:39.0126980+10:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-07-16T11:26:48.3853521+10:00" queuing="2009-07-16T11:26:52.9324308+10:00" start="2009-07-16T11:26:53.3074476+10:00" finish="2009-07-16T11:27:39.0126980+10:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\tfs\solution design\calibergenaddin\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="61a26840-f678-4cd9-b795-a1939dacacfe" />
+      <TestMethod codeBase="C:\tfs\Solution Design\CaliberGenAddIn\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\tfs\solution design\calibergenaddin\testproject1\bin\debug\testproject1.dll" id="9381223e-8095-9777-a0c7-26043045171c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9c583d87-d8b7-4f46-a2dd-299186743292" />
+      <TestMethod codeBase="C:\tfs\Solution Design\CaliberGenAddIn\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="61a26840-f678-4cd9-b795-a1939dacacfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9381223e-8095-9777-a0c7-26043045171c" executionId="01d0c244-0a81-4d82-a294-d333a12b177e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="61a26840-f678-4cd9-b795-a1939dacacfe" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="FNOA0189" duration="00:00:00.8716862" startTime="2009-07-16T11:26:53.8230957+10:00" endTime="2009-07-16T11:26:57.2451240+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01d0c244-0a81-4d82-a294-d333a12b177e" testId="9381223e-8095-9777-a0c7-26043045171c" testName="TestMethod2" computerName="FNOA0189" duration="00:00:41.7675740" startTime="2009-07-16T11:26:57.2451240+10:00" endTime="2009-07-16T11:27:39.0126980+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

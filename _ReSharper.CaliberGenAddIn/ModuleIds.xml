@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="3BEBF69B-5B21-4845-B453-AAD0CD19D053" ModuleId="CaliberGenEAAddIn" />
+  <Module PersistentId="19CF570F-1A9B-4129-8CD1-2FE498515FFF" ModuleId="EAAddInTestProject" />
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>

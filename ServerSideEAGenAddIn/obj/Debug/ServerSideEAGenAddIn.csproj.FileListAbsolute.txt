@@ -1,0 +1,12 @@
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\Images\Green.jpg
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\Images\Orange.JPG
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\Images\Red.jpg
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\ServerSideEAGenAddIn.dll
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\ServerSideEAGenAddIn.pdb
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\EAAddIn.dll
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\Interop.EA.dll
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\CaliberRMSDK100.NET.dll
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\bin\Debug\EAAddIn.pdb
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\obj\Debug\ResolveAssemblyReference.cache
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\obj\Debug\ServerSideEAGenAddIn.dll
+C:\tfs\Solution Design\CaliberGenAddIn\ServerSideEAGenAddIn\obj\Debug\ServerSideEAGenAddIn.pdb

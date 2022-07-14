@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EAAddIn.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastCaliberProject" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EA_CaliberCoolgenConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DRPSQL007\SQL07;Initial Catalog=EA_CaliberCoolgen;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DRPSQL007\SQL07;Initial Catalog=EA_CaliberCoolgen;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="EA_Release1ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DRPSQL007\SQL07;Initial Catalog=EA_Release1;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DRPSQL007\SQL07;Initial Catalog=EA_Release1;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="HierarchyChildView" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;None&gt;</Value>
+    </Setting>
+    <Setting Name="SQLServerScriptGeneratorConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastAddIn1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastAddIn2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastAddIn3" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DataDynamicsARLic" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEWR, DEWR, DD-ARN-20-D000496, cc4967777c49a3ff</Value>
+    </Setting>
+    <Setting Name="EA_LOCALConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=ea local;uid=WL0035;app=Microsoft® Visual Studio® 2010;wsid=WDE307669;database=EA_LOCAL;trusted_connection=Yes&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=ea local;uid=WL0035;app=Microsoft® Visual Studio® 2010;wsid=WDE307669;database=EA_LOCAL;trusted_connection=Yes</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

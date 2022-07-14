@@ -1,0 +1,21 @@
+C:\tfs\Program Files\Sparx Systems\EA\EAAddIn.dll
+C:\tfs\Program Files\Sparx Systems\EA\EAAddIn.pdb
+C:\tfs\Program Files\Sparx Systems\EA\EAAddIn.tlb
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\ResolveAssemblyReference.cache
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.AboutCEG.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\EAAddIn.BPMNReport.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\EAAddIn.CaliberImportForm.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.ErrorLogForm.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.ImportRules.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberRMBranch.Login.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.MappingTableMaintenance.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.WrapperFileSelection.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.csproj.GenerateResource.Cache
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\EAAddIn.dll
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\EAAddIn.pdb
+C:\Program Files\Sparx Systems\EA\EAAddIn.dll
+C:\Program Files\Sparx Systems\EA\EAAddIn.pdb
+C:\Program Files\Sparx Systems\EA\EAAddIn.tlb
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.GetNewGenServiceNumber.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\CaliberGenEAAddIn.LinkedElements.resources
+C:\tfs\Solution Design\Release1\CaliberGenAddIn\CaliberGenAddIn\obj\Release\EAAddIn.StereotypeReplace.resources

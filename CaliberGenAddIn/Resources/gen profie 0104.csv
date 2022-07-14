@@ -1,0 +1,60 @@
+Source Element Type,Source Stereotype Filter,Target Element Type,Target Stereotype Filter,Diagram Filter,New Element Type,New Element Stereotype,New Link Type,New Link Stereotype,New Link Direction,New Link Caption,New Link & Element Caption,Create Link,Create Element,Disallow Self connector,Exclusive to ST Filter +,Menu Group,Complexity Level,Target Must Be Parent,Embed element,Precedes Separator LEAF,Precedes Separator GROUP,Dummy Column
+Class,GEN Service,Class,,,Class,GEN Orchestrator,Association,GEN Use,directed,Gen Use,Create a GEN Orchestrator,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Service,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Service,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+
+Class,GEN Orchestrator,Class,,,Class,GEN Public,Association,GEN Use,directed,Gen Use,Create a GEN Public,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Orchestrator,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Orchestrator,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Orchestrator,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Orchestrator,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Orchestrator,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+
+Class,GEN Public,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Public,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Public,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Public,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE,
+Class,GEN Public,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+
+Class,GEN Private,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Private,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Private,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Private,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Private,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+
+Class,GEN Wrapper,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Wrapper,Class,,,Class,GEN Public,Association,GEN Use,directed,Gen Use,Create a GEN Public,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Wrapper,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Wrapper,Class,,,Class,GEN Orchestrator,Association,GEN Use,directed,Gen Use,Create a GEN Orchestrator,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Wrapper,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Wrapper,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Wrapper,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+
+Class,GEN CAB,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN CAB,Class,,,Class,GEN Public,Association,GEN Use,directed,Gen Use,Create a GEN Public,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN CAB,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN CAB,Class,,,Class,GEN Orchestrator,Association,GEN Use,directed,Gen Use,Create a GEN Orchestrator,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN CAB,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN CAB,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN CAB,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+
+Class,GEN Global,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Global,Class,,,Class,Gen Public,Association,GEN Use,directed,Gen Use,Create a Gen Public,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Global,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Global,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Global,Class,,,Class,GEN Orchestrator,Association,GEN Use,directed,Gen Use,Create a GEN Orchestrator,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Global,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Global,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+
+Class,GEN Batch,Class,,,Class,GEN Public,Association,GEN Use,directed,Gen Use,Create a GEN Public,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Batch,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Batch,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Batch,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Batch,Class,,,Class,GEN External,Association,GEN Use,directed,Gen Use,Create a GEN External,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN Batch,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+
+Class,GEN External,Class,,,Class,GEN Public,Association,GEN Use,directed,Gen Use,Create a GEN Public,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN External,Class,,,Class,GEN Private,Association,GEN Use,directed,Gen Use,Create a GEN Private,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN External,Class,,,Class,GEN Global,Association,GEN Use,directed,Gen Use,Create a GEN Global,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN External,Class,,,Class,GEN CAB,Association,GEN Use,directed,Gen Use,Create a GEN CAB,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE
+Class,GEN External,Class,,,Class,,Association,GEN Use,directed,Gen Use,Use a new GEN Element,TRUE,TRUE,TRUE,,AllFusion Gen Use,0,,,,TRUE

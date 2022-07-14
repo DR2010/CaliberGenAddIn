@@ -1,0 +1,5 @@
+c:\projects\EAAddIn\EAAddIn\bin\Debug\EAAddIn.dll
+c:\projects\EAAddIn\EAAddIn\bin\Debug\EAAddIn.pdb
+c:\projects\EAAddIn\EAAddIn\obj\Debug\ResolveAssemblyReference.cache
+c:\projects\EAAddIn\EAAddIn\obj\Debug\EAAddIn.dll
+c:\projects\EAAddIn\EAAddIn\obj\Debug\EAAddIn.pdb

@@ -1,0 +1,73 @@
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\ResolveAssemblyReference.cache
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.Controls.BusinessRulesRealisationUserControl.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.Controls.DatabaseReleaseToolbarControl.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.Controls.LinkedElementsToolbarControl.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.Controls.UCDuplicatedElements.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.DatabaseReleaseManagerFormUsingControl.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.AuditHistory.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.BPMNReport.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.BusinessRulesRealisation.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.CaliberImportForm.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.ConnectorTypesPicker.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.Controls.DatabaseReleaseManagerControl.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.CreateDesignPackages.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.CR0370AddIn.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.DatabaseReleaseToolbar.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.CsvClassImporter.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.DatabaseReleaseManagerForm.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.ExtractAndClearAuditLogs.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.MaintainReleases.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.ProcessDocumentation.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.RenamedItemForm.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SelectStereotype.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.UIDropImpact.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.UIGetCurrentPath.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SQLScriptViewAttributes.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SQLScriptStoredProcedureAttributes.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SQLScriptFunctionAttributes.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.ESGAddinAboutBox.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SQLSchemaDifferencesViewer.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SQLScriptCreator.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SQLScriptIndexAttributes.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.EAExplorer.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.DataSourceViewer.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.GetNewGenServiceNumber.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.ImportRules.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.LinkedElements.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.Login.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.MappingTableMaintenance.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.PromoteElement.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Properties.Resources.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.ReleaseMaintenance.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.SQLScriptColumnAttributes.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.StaticProfileBuilderForm.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.StereotypeReplace.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.TextViewer.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.UIDateRangePicker.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.WrapperFileSelection.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\GenerateResource-ResGen.read.1.tlog
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\GenerateResource-ResGen.read.4.tlog
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\GenerateResource-ResGen.write.1.tlog
+c:\Program Files\Sparx Systems\EA\Images\Green.jpg
+c:\Program Files\Sparx Systems\EA\Images\Orange.JPG
+c:\Program Files\Sparx Systems\EA\Images\Red.jpg
+c:\Program Files\Sparx Systems\EA\EAAddIn.dll.config
+c:\Program Files\Sparx Systems\EA\EAAddIn.dll
+c:\Program Files\Sparx Systems\EA\EAAddIn.pdb
+c:\Program Files\Sparx Systems\EA\EAAddIn.tlb
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.dll
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.pdb
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.Dialog.PleaseWaitDialog.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\Interop.WMPLib.dll
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\AxInterop.WMPLib.dll
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\CaliberGenEAAddIn.csproj.ResolveComReference.cache
+c:\Program Files (x86)\Sparx Systems\EA\Images\Green.jpg
+c:\Program Files (x86)\Sparx Systems\EA\Images\Orange.JPG
+c:\Program Files (x86)\Sparx Systems\EA\Images\Red.jpg
+c:\Program Files (x86)\Sparx Systems\EA\EAAddIn.dll.config
+c:\Program Files (x86)\Sparx Systems\EA\EAAddIn.dll
+c:\Program Files (x86)\Sparx Systems\EA\EAAddIn.pdb
+c:\Program Files (x86)\Sparx Systems\EA\EAAddIn.tlb
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Applications.ElementLinker.ElementLinkerControl.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\EAAddIn.Windows.EaReports.resources
+c:\tfs\Solution Design\CaliberGenAddIn\CaliberGenAddIn\obj\Debug\GenerateResource.read.1.tlog

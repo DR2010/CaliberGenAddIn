@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="AuditHeader">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Audit" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AuditDetail" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="audit_id" type="xs:string" />
+                  <xs:attribute name="property" type="xs:string" />
+                  <xs:attribute name="old_value" type="xs:string" />
+                  <xs:attribute name="new_value" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="EA_Object_Type" type="xs:string" />
+            <xs:attribute name="Change_Type" type="xs:string" />
+            <xs:attribute name="object_Name" type="xs:string" />
+            <xs:attribute name="audit_id" type="xs:string" />
+            <xs:attribute name="object_GUID" type="xs:string" />
+            <xs:attribute name="object_type" type="xs:string" />
+            <xs:attribute name="audit_user" type="xs:string" />
+            <xs:attribute name="audit_datetime" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="ConvertedFileName" type="xs:string" />
+      <xs:attribute name="OriginalFileName" type="xs:string" />
+      <xs:attribute name="Status" type="xs:string" />
+      <xs:attribute name="ArchivedUpTo" type="xs:string" />
+      <xs:attribute name="ImportDateTime" type="xs:string" />
+      <xs:attribute name="ImportUser" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="AuditHeader" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

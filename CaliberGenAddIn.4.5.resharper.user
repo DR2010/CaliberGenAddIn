@@ -1,0 +1,547 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3BEBF69B-5B21-4845-B453-AAD0CD19D053/d:Windows/f:UIGetCurrentPath.cs" caret="2397" fromTop="22" />
+      <File id="3BEBF69B-5B21-4845-B453-AAD0CD19D053/f:AddInRepository.cs" caret="131" fromTop="7" />
+      <File id="3BEBF69B-5B21-4845-B453-AAD0CD19D053/f:WordReport.cs" caret="0" fromTop="0" />
+      <File id="3BEBF69B-5B21-4845-B453-AAD0CD19D053/d:Windows/f:EA_Reports.cs" caret="268" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:EA.Element">
+      <Item value="ParentID" priority="0" />
+      <Item value="ElementGUID" priority="3" />
+      <Item value="ElementID" priority="10" />
+      <Item value="Attributes" priority="0" />
+      <Item value="Type" priority="3" />
+      <Item value="CustomProperties" priority="1" />
+      <Item value="LoadLinkedDocument" priority="2" />
+      <Item value="GetLinkedDocument" priority="1" />
+      <Item value="SaveLinkedDocument" priority="4" />
+      <Item value="Update" priority="0" />
+      <Item value="Connectors" priority="0" />
+      <Item value="Created" priority="0" />
+      <Item value="Notes" priority="0" />
+      <Item value="Status" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="Stereotype" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="if" priority="32" />
+      <Item value="CabName" priority="1" />
+      <Item value="reader" priority="5" />
+      <Item value="ISwimlaneDef" priority="2" />
+      <Item value="LoadModule" priority="1" />
+      <Item value="CallType" priority="3" />
+      <Item value="MailnElemInEA" priority="0" />
+      <Item value="elemInEA" priority="0" />
+      <Item value="else" priority="3" />
+      <Item value="private" priority="5" />
+      <Item value="void" priority="3" />
+      <Item value="sender" priority="0" />
+      <Item value="EaAccess" priority="3" />
+      <Item value="public" priority="19" />
+      <Item value="string" priority="32" />
+      <Item value="currentTag" priority="0" />
+      <Item value="EA" priority="13" />
+      <Item value="Element" priority="23" />
+      <Item value="AddInRepository" priority="1" />
+      <Item value="int" priority="6" />
+      <Item value="new" priority="33" />
+      <Item value="ret" priority="16" />
+      <Item value="return" priority="14" />
+      <Item value="GetSelectedElement" priority="1" />
+      <Item value="object" priority="5" />
+      <Item value="obj" priority="1" />
+      <Item value="elementSourceDataTable" priority="0" />
+      <Item value="el" priority="6" />
+      <Item value="retElement" priority="0" />
+      <Item value="Diagram" priority="2" />
+      <Item value="MessageBox" priority="2" />
+      <Item value="currentDiagram" priority="0" />
+      <Item value="UriComponents" priority="3" />
+      <Item value="Guid" priority="3" />
+      <Item value="txtNewGuid" priority="0" />
+      <Item value="StringComparison" priority="1" />
+      <Item value="Property" priority="1" />
+      <Item value="Value" priority="0" />
+      <Item value="System" priority="3" />
+      <Item value="SqlTaggedValue" priority="6" />
+      <Item value="elementID" priority="2" />
+      <Item value="tagString" priority="2" />
+      <Item value="EAElement" priority="2" />
+      <Item value="sqltv" priority="7" />
+      <Item value="SqlUpdateTaggedValue" priority="0" />
+      <Item value="value" priority="2" />
+      <Item value="SqlAddTaggedValue" priority="0" />
+      <Item value="EadbUpdate" priority="6" />
+      <Item value="eadb" priority="2" />
+      <Item value="Exception" priority="6" />
+      <Item value="txtProperty" priority="0" />
+      <Item value="txtValue" priority="1" />
+      <Item value="EaEngine" priority="0" />
+      <Item value="SelectedElement" priority="2" />
+      <Item value="element" priority="30" />
+      <Item value="Convert" priority="3" />
+      <Item value="txtElementID" priority="1" />
+      <Item value="txtObjectID" priority="0" />
+      <Item value="guid" priority="0" />
+      <Item value="txtea_guid" priority="0" />
+      <Item value="ea" priority="0" />
+      <Item value="sqlTagValue" priority="4" />
+      <Item value="fil" priority="1" />
+      <Item value="tag" priority="0" />
+      <Item value="sqlRequest" priority="3" />
+      <Item value="var" priority="11" />
+      <Item value="CompositeType" priority="0" />
+      <Item value="ct" priority="4" />
+      <Item value="CreateControl" priority="0" />
+      <Item value="SQLSchemaDifferencesViewer" priority="0" />
+      <Item value="IServiceEAGen" priority="1" />
+      <Item value="ServiceEAGenClient" priority="2" />
+      <Item value="Service1" priority="0" />
+      <Item value="IService1" priority="0" />
+      <Item value="CreateIService1" priority="1" />
+      <Item value="x" priority="4" />
+      <Item value="asrt" priority="0" />
+      <Item value="Assert" priority="3" />
+      <Item value="t" priority="1" />
+      <Item value="true" priority="4" />
+      <Item value="ChannelFactory" priority="0" />
+      <Item value="CommunicationState" priority="0" />
+      <Item value="tv" priority="3" />
+      <Item value="xSer" priority="1" />
+      <Item value="ex" priority="1" />
+      <Item value="null" priority="7" />
+      <Item value="throw" priority="0" />
+      <Item value="Enum" priority="0" />
+      <Item value="phase" priority="1" />
+      <Item value="Length" priority="1" />
+      <Item value="List" priority="5" />
+      <Item value="templateElement" priority="0" />
+      <Item value="fromTag" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="foreach" priority="2" />
+      <Item value="Attribute" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="DateTime" priority="14" />
+      <Item value="sAttributeList" priority="0" />
+      <Item value="List&lt;sAttributeList&gt;" priority="0" />
+      <Item value="elementAttList" priority="0" />
+      <Item value="sAttributeDetails" priority="0" />
+      <Item value="_attributeDetails" priority="3" />
+      <Item value="_attribute" priority="1" />
+      <Item value="atDate" priority="2" />
+      <Item value="IFormatProvider" priority="2" />
+      <Item value="dbConnections" priority="0" />
+      <Item value="try" priority="2" />
+      <Item value="catch" priority="2" />
+      <Item value="continue" priority="3" />
+      <Item value="startOfReport" priority="4" />
+      <Item value="toar" priority="0" />
+      <Item value="TimeZoneNotFoundException" priority="0" />
+      <Item value="oPara10" priority="0" />
+      <Item value="Font" priority="1" />
+      <Item value="FontNames" priority="2" />
+      <Item value="_element" priority="1" />
+      <Item value="endOfReport" priority="1" />
+      <Item value="oDoc" priority="3" />
+      <Item value="repTitle" priority="0" />
+      <Item value="itemNumber" priority="1" />
+      <Item value="bool" priority="2" />
+      <Item value="struct" priority="1" />
+      <Item value="Package" priority="6" />
+      <Item value="projectTemplate" priority="3" />
+      <Item value="List&lt;projectTemplate&gt;" priority="1" />
+      <Item value="packageTemplate" priority="3" />
+      <Item value="projectList" priority="1" />
+      <Item value="proj" priority="8" />
+      <Item value="_package" priority="1" />
+      <Item value="static" priority="1" />
+      <Item value="TestClass" priority="0" />
+      <Item value="packageOwner" priority="0" />
+      <Item value="this" priority="3" />
+      <Item value="addPackageContents" priority="0" />
+      <Item value="eaItem" priority="6" />
+      <Item value="_createDiagram" priority="3" />
+      <Item value="GetProjectTemplate" priority="0" />
+      <Item value="EATools" priority="0" />
+      <Item value="currentPackage" priority="1" />
+      <Item value="CreateEAItem" priority="0" />
+      <Item value="projectName" priority="0" />
+      <Item value="package" priority="1" />
+      <Item value="_createPackage" priority="0" />
+      <Item value="pack" priority="0" />
+      <Item value="elementNew" priority="0" />
+      <Item value="_createElement" priority="0" />
+      <Item value="linkedDocument" priority="2" />
+      <Item value="diag" priority="2" />
+      <Item value="newElement" priority="3" />
+      <Item value="eAuseCaseRootPackage" priority="1" />
+      <Item value="MessageBoxButtons" priority="2" />
+      <Item value="response" priority="1" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="EACreateNewProjectMenu" priority="0" />
+      <Item value="insertPicture" priority="0" />
+      <Item value="WordReport" priority="1" />
+      <Item value="pdfDocCreatePDF" priority="1" />
+      <Item value="iTextSharp" priority="0" />
+      <Item value="text" priority="0" />
+      <Item value="Jpeg" priority="0" />
+      <Item value="DateSelectorTo" priority="0" />
+      <Item value="DateRangeEventArgs" priority="0" />
+      <Item value="DateRange" priority="0" />
+      <Item value="GetAutoScaleSize" priority="2" />
+      <Item value="DateFrom" priority="0" />
+      <Item value="dateSelectorFrom" priority="0" />
+      <Item value="dateRangeSelector" priority="3" />
+      <Item value="_dateFrom" priority="1" />
+      <Item value="_dateTo" priority="1" />
+      <Item value="UIDateRangePicker" priority="0" />
+      <Item value="dp" priority="4" />
+      <Item value="double" priority="0" />
+      <Item value="datePickerStart" priority="0" />
+      <Item value="datePickerEnd" priority="0" />
+      <Item value="SelectRequirements" priority="0" />
+      <Item value="Selection" priority="1" />
+      <Item value="oWord" priority="0" />
+      <Item value="ref" priority="0" />
+      <Item value="oPosition" priority="0" />
+      <Item value="eltodelete" priority="1" />
+      <Item value="eaPreviousMap" priority="1" />
+      <Item value="EaCaliberGenEngine" priority="1" />
+      <Item value="secinfo" priority="0" />
+      <Item value="objectSelected" priority="1" />
+      <Item value="is" priority="0" />
+      <Item value="Refresh" priority="2" />
+      <Item value="currPath" priority="1" />
+      <Item value="type" priority="1" />
+      <Item value="pathType" priority="0" />
+      <Item value="eaGUID" priority="2" />
+      <Item value="otherEnd" priority="0" />
+      <Item value="MergedMenu" priority="0" />
+      <Item value="cbxStatusList" priority="1" />
+      <Item value="FillStatusList" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="listElements" priority="0" />
+      <Item value="MergeTables" priority="0" />
+      <Item value="destCon" priority="0" />
+      <Item value="proceed" priority="1" />
+      <Item value="false" priority="2" />
+      <Item value="break" priority="0" />
+      <Item value="Settings" priority="1" />
+      <Item value="eac" priority="0" />
+      <Item value="txtGENLoadModule" priority="1" />
+      <Item value="txtElementName" priority="0" />
+      <Item value="txtElementStereotype" priority="0" />
+      <Item value="txtElementType" priority="0" />
+      <Item value="txtCaliberID" priority="3" />
+      <Item value="mtCaliberMapping" priority="1" />
+      <Item value="caliberMapping" priority="2" />
+      <Item value="caliberID" priority="2" />
+      <Item value="txtCaliberTagID" priority="0" />
+      <Item value="mtCABMapping" priority="1" />
+      <Item value="cabMapping" priority="1" />
+      <Item value="RefreshContents" priority="0" />
+      <Item value="dgvLinkedToElements" priority="0" />
+      <Item value="listElementsRelated" priority="0" />
+      <Item value="UIDropImpact" priority="1" />
+      <Item value="uidrop" priority="1" />
+      <Item value="caliberTag" priority="0" />
+      <Item value="Repository" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlTextReader">
+      <Item value="Value" priority="1" />
+      <Item value="NamespaceURI" priority="0" />
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EaCaliberGenEngine+callProgram">
+      <Item value="CabName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.EaAccess">
+      <Item value="deleteTaggedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.AddInRepository">
+      <Item value="Instance" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.AddInRepository">
+      <Item value="Repository" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Repository">
+      <Item value="GetElementByID" priority="2" />
+      <Item value="GetElementByGuid" priority="1" />
+      <Item value="CloseDiagram" priority="0" />
+      <Item value="GetCurrentDiagram" priority="0" />
+      <Item value="GetPackageByGuid" priority="1" />
+      <Item value="BatchAppend" priority="0" />
+      <Item value="EnableUIUpdates" priority="0" />
+      <Item value="RefreshModelView" priority="0" />
+      <Item value="SuppressEADialogs" priority="0" />
+      <Item value="ShowInProjectView" priority="0" />
+      <Item value="GetDiagramByGuid" priority="0" />
+      <Item value="GetTreeSelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Diagram">
+      <Item value="DiagramID" priority="1" />
+      <Item value="Type" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.mtCaliberMapping">
+      <Item value="CaliberID" priority="2" />
+      <Item value="EA_GUID" priority="1" />
+      <Item value="getDetails" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToByteArray" priority="1" />
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EaAccess+SqlTaggedValue">
+      <Item value="xValue" priority="3" />
+      <Item value="xElementID" priority="2" />
+      <Item value="xNotes" priority="1" />
+      <Item value="xProperty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EaAccess">
+      <Item value="SqlGetTaggedValue" priority="0" />
+      <Item value="MergeTables" priority="0" />
+      <Item value="GetStatusList" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EadbUpdate+SqlTaggedValue">
+      <Item value="XElementId" priority="8" />
+      <Item value="XNotes" priority="4" />
+      <Item value="XProperty" priority="7" />
+      <Item value="XValue" priority="8" />
+      <Item value="XPropertyId" priority="5" />
+      <Item value="XGuid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EadbUpdate">
+      <Item value="SqlSaveTaggedValue" priority="1" />
+      <Item value="SqlGetTaggedValue" priority="1" />
+      <Item value="JustTest" priority="0" />
+      <Item value="UpdateEaElementNotes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="1" />
+      <Item value="ToDateTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="5" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="BeginTransaction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.EadbUpdate">
+      <Item value="SqlTaggedValue" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:wcfEAGenAddIn.DataContracts.SqlTaggedValueAddRequest">
+      <Item value="XElementId" priority="0" />
+      <Item value="XProperty" priority="0" />
+      <Item value="XValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:wcfEAGenAddIn.CompositeType">
+      <Item value="StringValue" priority="0" />
+      <Item value="ExtensionData" priority="0" />
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ServiceEAGenClient">
+      <Item value="GetData" priority="1" />
+      <Item value="GetDataUsingDataContract" priority="0" />
+      <Item value="SqlSaveTaggedValue" priority="0" />
+      <Item value="Close" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WcfEAGenCaliber.IService1">
+      <Item value="GetData" priority="0" />
+      <Item value="GetEAElementID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue" priority="1" />
+      <Item value="IsNotNull" priority="0" />
+      <Item value="AreEqual" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="0" />
+      <Item value="Substring" priority="2" />
+      <Item value="Remove" priority="0" />
+      <Item value="Replace" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.ChannelFactory">
+      <Item value="State" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceModel.CommunicationState">
+      <Item value="Opened" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="3" />
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.TaggedValue">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.WordReport">
+      <Item value="getTagsFromTemplate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.WordReport+sAttributeDetails">
+      <Item value="EventDate" priority="1" />
+      <Item value="EventDescription" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Attribute">
+      <Item value="Notes" priority="1" />
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="FromBinary" priority="0" />
+      <Item value="Today" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Subtract" priority="0" />
+      <Item value="AddDays" priority="0" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word.Paragraph">
+      <Item value="Range" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word.Range">
+      <Item value="Font" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word.Font">
+      <Item value="Name" priority="0" />
+      <Item value="Size" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Package">
+      <Item value="Packages" priority="0" />
+      <Item value="Name" priority="2" />
+      <Item value="Diagrams" priority="0" />
+      <Item value="Elements" priority="0" />
+      <Item value="Element" priority="0" />
+      <Item value="PackageID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EATools+projectTemplate">
+      <Item value="diagramType" priority="1" />
+      <Item value="itemName" priority="1" />
+      <Item value="itemType" priority="2" />
+      <Item value="packageOwner" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EATools">
+      <Item value="mainList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EATools+ProjectTemplate">
+      <Item value="ProjectName" priority="0" />
+      <Item value="ItemName" priority="2" />
+      <Item value="PackageOwner" priority="2" />
+      <Item value="Equals" priority="0" />
+      <Item value="DiagramType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Collection">
+      <Item value="AddNew" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.AddInApplications">
+      <Item value="EACreateNewProject" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="YesNo" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="Yes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursors">
+      <Item value="Arrow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iTextSharp.text.Document">
+      <Item value="AddTitle" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MonthCalendar">
+      <Item value="DateSelected" priority="0" />
+      <Item value="SelectionStart" priority="0" />
+      <Item value="SelectionRange" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SelectionRange">
+      <Item value="End" priority="1" />
+      <Item value="Start" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.Windows.UIDateRangePicker">
+      <Item value="Close" priority="0" />
+      <Item value="ShowInTaskbar" priority="1" />
+      <Item value="Show" priority="0" />
+      <Item value="ButtonPressed" priority="0" />
+      <Item value="DateFrom" priority="0" />
+      <Item value="DateTo" priority="0" />
+      <Item value="ShowDialog" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word._Document">
+      <Item value="GoTo" priority="1" />
+      <Item value="Fields" priority="0" />
+      <Item value="Bookmarks" priority="0" />
+      <Item value="Paragraphs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word.Bookmarks">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word.Find">
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.DiagramObject">
+      <Item value="ElementID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.EaCaliberGenEngine">
+      <Item value="UpdateEAStatus" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Connector">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.Properties.Settings">
+      <Item value="Default" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.Properties.Settings">
+      <Item value="EA_CaliberCoolgenConnectionString" priority="1" />
+      <Item value="EA_Release1ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.mtCABMapping">
+      <Item value="getGuidByCABName_EA" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.Windows.UIDropImpact">
+      <Item value="ShowDialog" priority="0" />
+      <Item value="Close" priority="0" />
+      <Item value="response" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

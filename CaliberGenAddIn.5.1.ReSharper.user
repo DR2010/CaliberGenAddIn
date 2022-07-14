@@ -1,0 +1,195 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="oDoc" priority="4" />
+      <Item value="File`0" priority="4" />
+      <Item value="fixed" priority="0" />
+      <Item value="oWord" priority="2" />
+      <Item value="FileName" priority="0" />
+      <Item value="string" priority="6" />
+      <Item value="filename" priority="2" />
+      <Item value="System`0" priority="2" />
+      <Item value="IO" priority="0" />
+      <Item value="using" priority="1" />
+      <Item value="File" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="DateTime`0" priority="2" />
+      <Item value="for" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="i" priority="0" />
+      <Item value="continue" priority="0" />
+      <Item value="if" priority="2" />
+      <Item value="filecreated" priority="0" />
+      <Item value="return" priority="2" />
+      <Item value="else" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="private" priority="3" />
+      <Item value="void" priority="0" />
+      <Item value="public" priority="5" />
+      <Item value="PleaseWaitDialog`0" priority="0" />
+      <Item value="pleaseWaitDialog" priority="0" />
+      <Item value="ApartmentState`0" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="con" priority="0" />
+      <Item value="dtpManagerTo" priority="0" />
+      <Item value="Convert`0" priority="0" />
+      <Item value="author" priority="0" />
+      <Item value="EA" priority="0" />
+      <Item value="ea_guid" priority="0" />
+      <Item value="createdDate" priority="0" />
+      <Item value="stereotype" priority="0" />
+      <Item value="item" priority="3" />
+      <Item value="element" priority="3" />
+      <Item value="Element`0" priority="0" />
+      <Item value="elementID" priority="0" />
+      <Item value="package" priority="1" />
+      <Item value="new" priority="0" />
+      <Item value="Package" priority="0" />
+      <Item value="null" priority="1" />
+      <Item value="static" priority="0" />
+      <Item value="EaCaliberGenEngine`0" priority="0" />
+      <Item value="currentPackage" priority="0" />
+      <Item value="packageName" priority="0" />
+      <Item value="struct" priority="0" />
+      <Item value="Package`0" priority="0" />
+      <Item value="Constraint" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="ColumnNames`0" priority="2" />
+      <Item value="enum" priority="0" />
+      <Item value="columnName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word._Document">
+      <Item value="SaveAs`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Activate`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word._Application">
+      <Item value="Documents" priority="0" />
+      <Item value="Visible" priority="0" />
+      <Item value="Activate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Word.Documents">
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Delete`0" priority="0" />
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="1" />
+      <Item value="Now" priority="0" />
+      <Item value="UtcNow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.Windows.Dialog.PleaseWaitDialog">
+      <Item value="ShouldCloseNow" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Abort`0" priority="0" />
+      <Item value="SetApartmentState`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ApartmentState">
+      <Item value="STA" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Connector">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Start`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDateTime`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EaAccess+brItem">
+      <Item value="author" priority="1" />
+      <Item value="ea_guid" priority="1" />
+      <Item value="createdDate" priority="1" />
+      <Item value="stereotype" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EaAccess+sqlElement">
+      <Item value="CreatedDate" priority="0" />
+      <Item value="Author" priority="0" />
+      <Item value="ea_guid" priority="0" />
+      <Item value="Stereotype" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Repository">
+      <Item value="GetElementByID`0" priority="0" />
+      <Item value="GetPackageByID`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Element">
+      <Item value="PackageID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EA.Package">
+      <Item value="PackageID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.EaCaliberGenEngine">
+      <Item value="CreateEaPackage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumn">
+      <Item value="Caption" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.Windows.Controls.BusinessRulesRealisationUserControl+ColumnNames">
+      <Item value="Package" priority="0" />
+      <Item value="ElementID" priority="6" />
+      <Item value="Status" priority="0" />
+      <Item value="RelatedTo" priority="2" />
+      <Item value="EAGUID" priority="0" />
+      <Item value="Stereotype" priority="0" />
+      <Item value="CreatedDate" priority="0" />
+      <Item value="Element" priority="0" />
+      <Item value="Notes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.Others.DTColumnNames">
+      <Item value="ElementAssociationsScreen`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EAAddIn.Others.DTColumnNames+ElementAssociationsScreen">
+      <Item value="Package" priority="0" />
+      <Item value="Element" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="RelatedTo" priority="0" />
+      <Item value="Diagrams" priority="0" />
+      <Item value="Notes" priority="0" />
+      <Item value="ElementID" priority="0" />
+      <Item value="Author" priority="0" />
+      <Item value="EAGUID" priority="0" />
+      <Item value="Stereotype" priority="0" />
+      <Item value="CreatedDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EAAddIn.EaAccess+DiagramStruct">
+      <Item value="DiagramType" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles />
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

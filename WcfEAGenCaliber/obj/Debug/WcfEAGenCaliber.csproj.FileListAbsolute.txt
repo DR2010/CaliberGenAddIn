@@ -1,0 +1,13 @@
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\WcfEAGenCaliber.dll.config
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\WcfEAGenCaliber.dll
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\WcfEAGenCaliber.pdb
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\obj\Debug\ResolveAssemblyReference.cache
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\obj\Debug\WcfEAGenCaliber.dll
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\obj\Debug\WcfEAGenCaliber.pdb
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\Images\Green.jpg
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\Images\Orange.JPG
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\Images\Red.jpg
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\EAAddIn.dll
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\Interop.EA.dll
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\CaliberRMSDK100.NET.dll
+C:\tfs\Solution Design\CaliberGenAddIn\WcfEAGenCaliber\bin\Debug\EAAddIn.pdb
